@@ -20,7 +20,7 @@
   "dependencies": {
     "next": "^14.2.31",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^19"
   },
   "devDependencies": {
     "@secretlint/secretlint-rule-preset-recommend": "^5.2.4",
@@ -29,7 +29,7 @@
     "@types/jest": "^29.5.11",
     "@types/node": "^20",
     "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react-dom": "^19",
     "cypress": "^13.13.3",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
