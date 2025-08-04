@@ -1,3 +1,16 @@
-export default function Home() {
-  return <h1>TDD Next Template</h1>
+"use client"
+
+import React, { useState } from 'react';
+import NoteForm from "./noteForm";
+import { Note } from './types';
+
+export default function App() {
+  const [notes, setNotes] = useState<Note[]>([]);
+  const [formData, setFormData] = useState<Note>({ name: '', description: '' });
+
+    return <NoteForm 
+    notes={notes} 
+    formData={formData}
+    setFormDataCallback={setFormData} 
+    setNotesCallback={setNotes} />
 }

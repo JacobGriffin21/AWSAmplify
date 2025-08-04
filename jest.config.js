@@ -10,6 +10,8 @@ const customJestConfig = {
   collectCoverageFrom: [
     'src/**/*.{ts,tsx}',
   ],
+  // collectCoverage : true,
+
   coverageThreshold: {
     global: {
       branches: 80,

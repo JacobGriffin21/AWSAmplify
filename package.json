@@ -1,5 +1,5 @@
 {
-  "name": "tdd-next-template",
+  "name": "tutorial",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,21 +9,20 @@
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "secretlint": "secretlint *",
-    "test": "jest --watch",
+    "test": "jest",
     "test:ci": "jest --ci",
     "test:coverage": "jest --coverage --watchAll=false",
     "cypress:open": "npx cypress open",
     "cypress:run": "npx cypress run",
-    "cypress:test": "BROWSER=none start-test dev http://127.0.0.1:3000 'npx cypress run'",
+    "cypress:test": "cross-env BROWSER=none start-test dev http://127.0.0.1:3000 'cypress:run'",
     "prepare": "husky"
   },
   "dependencies": {
-    "next": "14.2.5",
+    "next": "^14.2.31",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "cypress": "^13.13.3",
     "@secretlint/secretlint-rule-preset-recommend": "^5.2.4",
     "@testing-library/jest-dom": "^6.1.5",
     "@testing-library/react": "15.0.6",
@@ -31,6 +30,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "cypress": "^13.13.3",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "husky": "^9.1.4",
