@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ![Security Checks](https://github.com/pairing4good/tdd-next-template/actions/workflows/codeql-analysis.yml/badge.svg)
 ![Linting Checks](https://github.com/pairing4good/tdd-next-template/actions/workflows/linting.yml/badge.svg)
 ![React Tests](https://github.com/pairing4good/tdd-next-template/actions/workflows/node.js.yml/badge.svg)
@@ -13,10 +12,10 @@
 - Update badges at the top of the `README.md` to point to your new repositories GitHub Action results
 
 ```
-![Security Checks](https://github.com/jacobgriffin21/AWSApmplify/actions/workflows/codeql-analysis.yml/badge.svg)
-![Linting Checks](https://github.com/jacobgriffin21/AWSApmplify/actions/workflows/linting.yml/badge.svg)
-![React Tests](https://github.com/jacobgriffin21/AWSApmplify/actions/workflows/node.js.yml/badge.svg)
-![Cypress Tests](https://github.com/jacobgriffin21/AWSApmplify/actions/workflows/cypress.yml/badge.svg)
+![Security Checks](https://github.com/{username}/{repository}/actions/workflows/codeql-analysis.yml/badge.svg)
+![Linting Checks](https://github.com/{username}/{repository}/actions/workflows/linting.yml/badge.svg)
+![React Tests](https://github.com/{username}/{repository}/actions/workflows/node.js.yml/badge.svg)
+![Cypress Tests](https://github.com/{username}/{repository}/actions/workflows/cypress.yml/badge.svg)
 ```
 
 - [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) your new repository
@@ -69,8 +68,3 @@ This template uses [GitHub Actions](https://docs.github.com/en/actions) to run [
 - `.github/workflows/node.js.yml` runs tests against your code.
 - `.github/workflows/cypress.yml` runs cypress tests against your code.
 - `.github/workflows/linting.yml` runs [ESLint](https://nextjs.org/docs/pages/building-your-application/configuring/eslint) against the code along with [secretlint](https://github.com/secretlint/secretlint)
-=======
-# AWS Amplify Tutorial Project
-## This is an AWS Amplify tutorial that teaches students/interns how to use Amplify and apply it to real world development work
-### Install and run instructions
->>>>>>> 80f5556e1a6250fc2fa627e1ea45845800c948ff
